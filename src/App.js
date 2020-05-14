@@ -36,7 +36,7 @@ class App extends Component{
 
 		this.setState({list:updatedList});
 	}
-	resposeGoogle=(r)=>{
+	responseGoogle=(r)=>{
 		console.log(r);
 	}
 	render(){
@@ -44,10 +44,10 @@ class App extends Component{
 			<div className="App">
 				<div>
 					 <GoogleLogin
-						 clientId="481793852233-6gl4pvfj7uf055nqnb2n52gd6p6hf5ve.apps.googleusercontent.com"
+						 clientId="1075083842135-tj4tp4tslh05v27rv87qlc2meep42mf3.apps.googleusercontent.com"
 						buttonText="Login"
-						onSuccess={this.resposeGoogle}
-						onFailure={this.resposeGoogle}
+						onSuccess={this.responseGoogle}
+						onFailure={this.responseGoogle}
 						cookiePolicy={'single_host_origin'}></GoogleLogin>
 				</div>
 				<div>
